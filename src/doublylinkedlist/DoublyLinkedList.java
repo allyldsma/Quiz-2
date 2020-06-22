@@ -13,14 +13,17 @@ public class DoublyLinkedList {
 
     /**
      * @param args the command line arguments
+     * @param node3
+     * @param node2
+     * @param node1
      */
-    public static void main(String[] args) {
+    public static void main(String[] args, DNode node3, DNode node2, DNode node1) {
         // TODO code application logic here
         Person [] person = new Person[5];
         
-       person[0] = new Person("Aldrin", "Wabingga", "Panacan,");
-       person[1] = new Person("Aldrin", "Wabingga", "Panacan,");
-       person[2] = new Person("Aldrin", "Wabingga", "Panacan,");
+       person[0] = new Person("Michell", "Ledesma", "Panacan,");
+       person[1] = new Person("Ritchell", "Rubio", "Bukidnon");
+       person[2] = new Person("Allan", "Ledesma", "Baguio");
         
         
    

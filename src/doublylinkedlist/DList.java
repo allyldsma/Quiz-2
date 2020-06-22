@@ -8,6 +8,7 @@ package doublylinkedlist;
 /**
  *
  * @author Enubs
+ * @param <E>
  */
 public class DList<E> {
     private DNode header, trailer;
